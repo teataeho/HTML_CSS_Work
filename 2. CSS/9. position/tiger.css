@@ -1,0 +1,85 @@
+
+@import url(../../common.css);
+
+body {
+    background: #666;
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: '굴림', 'Gulim', sans-serif;
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    background: #123456;
+    font-family: url(./noto-sans-korean/NotoSansKR-Regular.otf), sans-serif;
+    color: #a5a555;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 strong {
+    color: white;
+    font-size: 3em;
+}
+
+header h1 span {
+    font-size: 1.5em;
+}
+
+header h1 em {
+    font-size: 2em;
+    color: #bdbdbd;
+}
+
+#wrapper .container .menu {
+    background: lightgray;
+    width: 20%;
+    height: 550px;
+    padding: 20px;
+    float: left;
+}
+
+#wrapper .container .menu li {
+    text-decoration: underline;
+    margin: 15px;
+}
+
+.container .menu li a:hover {
+    color: #662;
+    border-bottom: 1px dashed #662;
+}
+
+#wrapper .container .content {
+    background: white;
+    width: 80%;
+    height: 550px;
+    overflow: auto;
+    float: left;
+}
+
+#wrapper .container .content h2 {
+    background: #741212;
+    font-size: 2em;
+    font-family: cursive;
+    color: yellow;
+    text-indent: 10px;
+    padding: 5px;
+}
+
+#wrapper .container .content p {
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    background: rgb(156, 156, 156);
+    padding: 10px 0;
+    text-indent: 20px;
+}
+
