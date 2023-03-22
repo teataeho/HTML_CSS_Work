@@ -19,14 +19,14 @@ header {
 }
 
 header h1 {
-    font-size: 80px;
+    font-size: 85px;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 5px; 
 }
 
 header h1 span {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 16px;
     display: block;
 }
 
@@ -34,7 +34,7 @@ header .stit {
     background: lightgray;
     color: #000;
     padding: 2px;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 .container .side-menu {
@@ -47,7 +47,8 @@ header .stit {
 .container .side-menu h3 {
     color: white;
     background: #ad0505;
-    padding: 5px;
+    padding: 9px;
+    font-weight: bold;
 }
 
 .container .side-menu ul {
@@ -57,6 +58,10 @@ header .stit {
     padding: 5px;
     font-size: 0.9em;
     text-indent: 5px;
+}
+
+.container .side-menu ul li:hover {
+    border-bottom: 1px dotted;
 }
 
 .container .main-content {
@@ -69,9 +74,12 @@ header .stit {
 
 .container .main-content .art-piece .title {
     background: #123456;
-    color: white;
-    font-weight: bold;
+    color: #e2e2e2;
     padding: 5px;
+}
+
+.container .main-content .art-piece .title:hover {
+    text-decoration: underline;
 }
 
 .container .main-content .art-piece .artist {
@@ -99,6 +107,7 @@ header .stit {
     font-size: 1.3em;
     line-height: 1.5;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .container .banner h3 .all {
@@ -113,10 +122,27 @@ header .stit {
     display: block;
 }
 
+.container .banner .link a {
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.container .banner .link span {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+}
+
 footer {
     text-align: center;
     background: #123456;
-    color: white;
+    color: #eee;
     padding: 5px;
     font-size: 11px;
+}
+
+footer a {
+    text-decoration: underline;
 }
